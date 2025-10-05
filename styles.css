@@ -99,6 +99,24 @@ body {
   text-align: center;
 }
 
+.side-caption {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* space between image and caption */
+  margin: 20px 0;
+}
+
+.side-caption img {
+  max-width: 100%;
+  height: auto;
+}
+
+.side-caption figcaption {
+  font-size: 14px;
+  font-style: italic;
+  color: #333;
+}
+
 .content {
   padding: 20px;
   margin-top: 20px;
