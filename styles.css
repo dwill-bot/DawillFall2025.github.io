@@ -85,6 +85,8 @@ body {
 .middle {
   background-color: darkgray;
   border-style: none;
+  font-family: Georgia, serif;
+  text-align: justify;
 }
 
 .right {
