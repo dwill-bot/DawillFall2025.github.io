@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: hs1(0,0%,25%);
+  padding: 0px;
+  margin: 0px;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  }
+  .navbar a:hover{
+  }
