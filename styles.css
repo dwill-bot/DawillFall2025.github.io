@@ -21,7 +21,16 @@ h1{
     .navbar a:hover{
         background-color: darkgray;
     }
+
+  .dw-bar{width:100%;overflow:hidden}.dw-center .dw-bar{display:inline-block;width:auto}
+  .dw-bar .dw-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+  .dw-bar .dw-dropdown-hover,.dw-bar .dw-dropdown-click{position:static;float:left}
+  .dw-bar .dw-button{white-space:normal}
+  .dw-bar-block .dw-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+  .dw-bar-block.dw-center .dw-bar-item{text-align:center}.dw-block{display:block;width:100%}
+
     .h3 a{
         justify-content: center;
         padding-top: 20px;
+    
     }
