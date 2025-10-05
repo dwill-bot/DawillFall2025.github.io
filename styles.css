@@ -79,6 +79,7 @@ body {
 .left {
   background-color: white;
   border-style: none;
+  text-align: center;
 }
 
 .middle {
@@ -91,6 +92,7 @@ body {
 .right {
   background-color: white;
   border-style: none;
+  text-align: center;
 }
 
 .content {
