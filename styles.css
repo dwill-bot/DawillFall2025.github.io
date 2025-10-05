@@ -1,18 +1,21 @@
 h1{
-  text-align: center;
-}
-.navbar ul{
-  list-style-type: none;
-  background-color: gray;
-  padding: 0px;
-  margin: 0px;
-}
-.navbar a{
-  color: black;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  text-align: center;
+    text-align: center;
   }
-  .navbar a:hover{
+  .navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
   }
+  .navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    }
+    .navbar a:hover{
+        background-color: darkgray;
+    }
