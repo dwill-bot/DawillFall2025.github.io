@@ -133,6 +133,11 @@ body {
   font-style: italic;
   color: black;
 }
+
+.image-grow img {
+  transition: transform 0.3s ease;
+}
+
 .image-grow img:hover {
   transform: scale(1.1);  /* Slightly enlarges the image when hovered */
 }
