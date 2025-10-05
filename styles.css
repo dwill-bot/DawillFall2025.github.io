@@ -26,6 +26,19 @@ h1 {
 }
 
 /* Custom DWilliams Classes */
+.dw-top, .dw-bottom {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.dw-top {
+  top: 0;
+}
+
+.dw-bottom {
+  bottom: 0;
+}
 .dw-bar {
   width: 100%;
   overflow: hidden;
