@@ -10,6 +10,7 @@ h1 {
   width: 100%;
   overflow: hidden;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .navbar a {
