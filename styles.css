@@ -114,8 +114,26 @@ body {
 .side-caption figcaption {
   font-size: 14px;
   font-style: italic;
-  color: #333;
+  color: black;
 }
+
+.side-captionleft {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 20px;
+}
+.side-captionleft img {
+  max-width: 100%;
+  height: auto;
+}
+
+.side-captionleft figcaption {
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+}
+
 
 .content {
   padding: 20px;
