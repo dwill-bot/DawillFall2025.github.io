@@ -67,7 +67,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr; /* Middle column */
   gap: 10px;
-  padding: 20px;
+  padding: 0px;
   height: 100vh; /* Optional: full screen height */
 }
 
@@ -79,14 +79,17 @@ body {
 
 .left {
   background-color: white;
+  border-style: none;
 }
 
 .middle {
   background-color: darkgray;
+  border-style: none;
 }
 
 .right {
   background-color: white;
+  border-style: none;
 }
 
 .content {
